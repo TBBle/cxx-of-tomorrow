@@ -13,3 +13,7 @@
 [submodule "modules/Microsoft-Range-V3-VS2015"]
 	path = modules/Microsoft-Range-V3-VS2015
 	url = https://github.com/Microsoft/Range-V3-VS2015
+[submodule "modules/Catch-dev-modernize"]
+	path = modules/Catch-dev-modernize
+	url = https://github.com/philsquared/Catch.git
+	branch = dev-modernize
