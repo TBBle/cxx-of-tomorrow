@@ -71,6 +71,7 @@ aka "What do I need to set up", and "What other technologies am I trying to get 
 
 * (Modern) [CMake](https://cmake.org/)
 * [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+* [Ninja](https://ninja-build.org/)
 
 ## MSYS2
 
@@ -79,10 +80,14 @@ http://www.msys2.org/
 * [gcc 7.1](https://github.com/Alexpux/MINGW-packages/tree/master/mingw-w64-gcc)
 * [clang 4.0](https://github.com/Alexpux/MINGW-packages/tree/master/mingw-w64-clang)
 
-## MSVC
+## MS Visual Studio
 
-* MSVC 2017 C1/C2 (v141 toolchain)
-* MSVC 2017 Clang/C2 (v141_clang_c2 toolchain)
+* VS 2017 C1/C2 (v141 toolchain)
+* VS 2017 Clang/C2 (v141\_clang\_c2 toolchain)
+
+I expect these will be [MSVC 2017 15.3](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes) once it's released.
+
+I plan to be able to use the MSVC CMake support, with CMake-Server.
 
 ## Linux
 
