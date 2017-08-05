@@ -1,0 +1,15 @@
+[submodule "modules/networking-ts-impl"]
+	path = modules/networking-ts-impl
+	url = https://github.com/chriskohlhoff/networking-ts-impl.git
+[submodule "modules/Microsoft-GSL"]
+	path = modules/Microsoft-GSL
+	url = https://github.com/Microsoft/GSL.git
+[submodule "modules/executors-issaquah_2016"]
+	path = modules/executors-issaquah_2016
+	url = https://github.com/executors/issaquah_2016.git
+[submodule "modules/ericniebler-range-v3"]
+	path = modules/ericniebler-range-v3
+	url = https://github.com/ericniebler/range-v3.git
+[submodule "modules/Microsoft-Range-V3-VS2015"]
+	path = modules/Microsoft-Range-V3-VS2015
+	url = https://github.com/Microsoft/Range-V3-VS2015
