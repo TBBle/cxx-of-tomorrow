@@ -4,9 +4,6 @@
 [submodule "modules/Microsoft-GSL"]
 	path = modules/Microsoft-GSL
 	url = https://github.com/Microsoft/GSL.git
-[submodule "modules/executors-issaquah_2016"]
-	path = modules/executors-issaquah_2016
-	url = https://github.com/executors/issaquah_2016.git
 [submodule "modules/ericniebler-range-v3"]
 	path = modules/ericniebler-range-v3
 	url = https://github.com/ericniebler/range-v3.git
@@ -17,3 +14,7 @@
 	path = modules/Catch-catch2
 	url = https://github.com/philsquared/Catch.git
 	branch = catch2
+[submodule "modules/executors-issaquah_2016-R3"]
+	path = modules/executors-issaquah_2016-R3
+	url = https://github.com/executors/issaquah_2016.git
+	branch = R3

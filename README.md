@@ -39,12 +39,12 @@ The answer has generally been either "Something like [`std::thread`](http://en.c
 such as `std::future::then` or the Paralellism TS's dynamic execution policies.
 
 Helpfully, a second iteration of a 'Unified Executors Proposal'
-([unpublished design P0761R0](https://github.com/executors/issaquah_2016/blob/master/explanatory.md) and
-[unpublished wording revision P0443R2](https://github.com/executors/issaquah_2016/blob/master/wording.md))
+([unpublished design P0761R0](https://github.com/executors/issaquah_2016/blob/R3/explanatory.md) and
+[unpublished wording revision P0443R2](https://github.com/executors/issaquah_2016/blob/R3/wording.md))
 has produced a prototype, which should allow experimenting with `std::future::then` at least, and
 more-interesting `std::async` behaviours.
 
-* https://github.com/executors/issaquah_2016
+* https://github.com/executors/issaquah_2016/tree/R3
 
 ## Guideline Support Library
 
