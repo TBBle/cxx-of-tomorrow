@@ -38,9 +38,9 @@ The answer has generally been either "Something like [`std::thread`](http://en.c
 "implementation defined", deferring resolution upon the idea of 'Executors', and hence deferring merging things
 such as `std::future::then` or the Paralellism TS's dynamic execution policies.
 
-Helpfully, a second iteration of a 'Unified Executors Proposal'
-([unpublished design P0761R0](https://github.com/executors/issaquah_2016/blob/R3/explanatory.md) and
-[unpublished wording revision P0443R2](https://github.com/executors/issaquah_2016/blob/R3/wording.md))
+Helpfully, a revised approach to the 'Unified Executors Proposal'
+([P0761R0](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0761r0.pdf) and
+[P0443R2](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/p0443r2.html))
 has produced a prototype, which should allow experimenting with `std::future::then` at least, and
 more-interesting `std::async` behaviours.
 
@@ -77,21 +77,19 @@ aka "What do I need to set up", and "What other technologies am I trying to get 
 
 http://www.msys2.org/
 
-* [gcc 7.1](https://github.com/Alexpux/MINGW-packages/tree/master/mingw-w64-gcc)
-* [clang 4.0](https://github.com/Alexpux/MINGW-packages/tree/master/mingw-w64-clang)
+* [gcc 7.2](https://github.com/Alexpux/MINGW-packages/tree/master/mingw-w64-gcc)
+* [clang 5.0](https://github.com/Alexpux/MINGW-packages/tree/master/mingw-w64-clang)
 
 ## MS Visual Studio
 
 * VS 2017 C1/C2 (v141 toolchain)
 * VS 2017 Clang/C2 (v141\_clang\_c2 toolchain)
 
-I expect these will be [MSVC 2017 15.3](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-preview-relnotes) once it's released.
-
 I plan to be able to use the MSVC CMake support, with CMake-Server.
 
 ## Linux
 
-Unsure yet. At work, our Linux hosts are CentOS 7 w/devtoolset-6, which means gcc 6.2.1.
+Unsure yet. At work, our Linux hosts are CentOS 7 w/devtoolset-6, which means gcc 6.3.1.
 
 I don't yet know if that'll be modern-enough but I fear it won't be. So it may
 be the [WSL](https://msdn.microsoft.com/commandline/wsl/about) with [Ubuntu 16.04](http://releases.ubuntu.com/16.04/)
