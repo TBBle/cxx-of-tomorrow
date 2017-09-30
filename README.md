@@ -61,9 +61,9 @@ Again, not C++-of-the-future, but it is Catch of the future, and with a blurry e
 confuse the two.
 
 Also, if I'm writing code, I'm writing tests. And if I'm writing tests in C++, I'm using Catch. And I wanted
-a place to try-out the "dev-modernize" branch of Catch, which should lead to Catch 2.0
+a place to try-out the "catch2" branch of Catch, which should lead to Catch 2.0
 
-* https://github.com/philsquared/Catch/tree/dev-modernize
+* https://github.com/philsquared/Catch/tree/catch2
 
 # What am I using to play with it?
 
